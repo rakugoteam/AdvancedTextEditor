@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=2]
 
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/EditContainer/Edit.gd" type="Script" id=1]
+[ext_resource path="res://addons/advanced-text-editor/EditContainer/Edit.gd" type="Script" id=1]
 [ext_resource path="res://addons/advanced-text/nodes/AdvancedTextLabel.gd" type="Script" id=2]
 [ext_resource path="res://addons/advanced-text/font/DejaVuSans-Oblique.tres" type="DynamicFont" id=3]
 [ext_resource path="res://addons/advanced-text/font/theme_with_fonts.tres" type="Theme" id=4]
@@ -11,8 +11,8 @@
 [ext_resource path="res://addons/advanced-text/font/DejaVuSans.tres" type="DynamicFont" id=9]
 [ext_resource path="res://addons/advanced-text/font/DejaVuSans-H2.tres" type="DynamicFont" id=10]
 [ext_resource path="res://addons/advanced-text/font/DejaVuSans-H3.tres" type="DynamicFont" id=11]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/Previews/PreviewEditContainer.gd" type="Script" id=12]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/FilesPanel/FilesPanel.tscn" type="PackedScene" id=13]
+[ext_resource path="res://addons/advanced-text-editor/Previews/PreviewEditContainer.gd" type="Script" id=12]
+[ext_resource path="res://addons/advanced-text-editor/FilesPanel/FilesPanel.tscn" type="PackedScene" id=13]
 
 [node name="EditContainer" type="Control"]
 anchor_right = 1.0

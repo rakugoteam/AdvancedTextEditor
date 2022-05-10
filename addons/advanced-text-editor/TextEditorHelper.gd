@@ -1,7 +1,7 @@
 tool
 extends Node
 
-const files_ram_path := "res://addons/advanced-text/MarkupTextEditor/ram.data"
+const files_ram_path := "res://addons/advanced-text-editor/ram.data"
 
 var files_ram := {}
 var mode := "file"
