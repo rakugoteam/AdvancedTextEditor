@@ -25,11 +25,10 @@ func _enter_tree():
 
 func toggle_markup_edit():
 	load_and_enable_markup_edit()
-	ProjectSettings.set_setting("addons/advanced_text_editor/enabled", markup_edit_enabled)
 
 func load_and_enable_markup_edit():
 	# load ram / last file session
-	add_autoload_singleton("TextEditorHelper", "addons/advanced-text-editor/TextEditorHelper.gd")
+	add_autoload_singleton("TextEditorHelper", "res://addons/advanced-text-editor/TextEditorHelper.gd")
 
 	# load and add MarkupTextEditor to EditorUI
 	markup_text_editor = preload("Main.tscn")

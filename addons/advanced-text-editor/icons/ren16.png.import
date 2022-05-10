@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ren16.png-59ae4dfdd37bf4320291136c1bf8d9df.stex"
+path="res://.import/ren16.png-7b8e7bb02b2f944869363dcd68d31ac4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/advanced-text/icons/ren16.png"
-dest_files=[ "res://.import/ren16.png-59ae4dfdd37bf4320291136c1bf8d9df.stex" ]
+source_file="res://addons/advanced-text-editor/icons/ren16.png"
+dest_files=[ "res://.import/ren16.png-7b8e7bb02b2f944869363dcd68d31ac4.stex" ]
 
 [params]
 

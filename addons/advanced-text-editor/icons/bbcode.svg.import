@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bbcode.svg-ba22802f9fa09c2eba6bc76e9fc33832.stex"
+path="res://.import/bbcode.svg-bced59b5e4b7e2cdbf9fc29818c7a587.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/advanced-text/icons/bbcode.svg"
-dest_files=[ "res://.import/bbcode.svg-ba22802f9fa09c2eba6bc76e9fc33832.stex" ]
+source_file="res://addons/advanced-text-editor/icons/bbcode.svg"
+dest_files=[ "res://.import/bbcode.svg-bced59b5e4b7e2cdbf9fc29818c7a587.stex" ]
 
 [params]
 

@@ -79,7 +79,7 @@ config/icon="res://icon.png"
 EBBCodeParser="*res://addons/advanced-text/parsers/EBBCodeParser.gd"
 MarkdownParser="*res://addons/advanced-text/parsers/MarkdownParser.gd"
 RenpyParser="*res://addons/advanced-text/parsers/RenpyParser.gd"
-EditorHelper="*res://addons/advanced-text/MarkupTextEditor/EditorHelper.gd"
+TextEditorHelper="*res://addons/advanced-text-editor/TextEditorHelper.gd"
 
 [debug]
 
@@ -92,7 +92,7 @@ gdscript/warnings/return_value_discarded=false
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/advanced-text/plugin.cfg", "res://addons/editor_icon_previewer/plugin.cfg", "res://addons/emojis-for-godot/plugin.cfg", "res://addons/material-design-icons/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/advanced-text-editor/plugin.cfg", "res://addons/advanced-text/plugin.cfg", "res://addons/editor_icon_previewer/plugin.cfg", "res://addons/emojis-for-godot/plugin.cfg", "res://addons/material-design-icons/plugin.cfg" )
 
 [global]
 
