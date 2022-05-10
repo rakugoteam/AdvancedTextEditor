@@ -21,10 +21,6 @@ func _enter_tree():
 	})
 
 	load_and_enable_markup_edit()
-	add_tool_menu_item("Toggle Markup Edit", self, "toggle_markup_edit")
-
-func toggle_markup_edit():
-	load_and_enable_markup_edit()
 
 func load_and_enable_markup_edit():
 	# load ram / last file session
@@ -42,7 +38,7 @@ func load_and_enable_markup_edit():
 	
 	# add button for MarkupTextEditor to toolbar
 	markup_text_editor_button = ToolButton.new()
-	markup_text_editor_button.text = "Markup Edit"
+	markup_text_editor_button.text = "Adavnced Text Editor"
 	markup_text_editor_button.icon = preload("icons/MarkupTextEditor.svg")
 	markup_text_editor_button.toggle_mode = true
 	markup_text_editor_button.pressed = false
