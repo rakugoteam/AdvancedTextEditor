@@ -9,6 +9,11 @@ export var configs_dict := {
 		"gdscript": "res://addons/advanced-text/highlights/gdscript.json",
 	}
 
+func _ready():
+	TextEditorHelper.connect("selected_markup", self, "_on_markup_selected")
+	TextEditorHelper.connect("selected_file", self, "_on_file_selected")
+	connect("text_changed", self, "_on_text_changed")
+
 func _on_markup_selected(markup:String):
 	if markup == "plain":
 		clear_colors()
@@ -26,5 +31,11 @@ func change_configs(langues: Array) -> void:
 
 	_add_keywords_highlighting()
 
+func _on_file_selected(f_data: Dictionary):
+	text = f_data["text"]
+
+func _on_text_changed():
+	TextEditorHelper.update_data("text", text)
+	
 
 
