@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/Addons/Icons.gd" type="Script" id=1]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/Addons/Emojis.gd" type="Script" id=2]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/Addons/Colors.gd" type="Script" id=3]
+[ext_resource path="res://addons/advanced-text-editor/Addons/Icons.gd" type="Script" id=1]
+[ext_resource path="res://addons/advanced-text-editor/Addons/Emojis.gd" type="Script" id=2]
+[ext_resource path="res://addons/advanced-text-editor/Addons/Colors.gd" type="Script" id=3]
 [ext_resource path="res://addons/advanced-text/icons/MaterialIcon.svg" type="Texture" id=4]
 [ext_resource path="res://addons/advanced-text/icons/emojis.svg" type="Texture" id=5]
 

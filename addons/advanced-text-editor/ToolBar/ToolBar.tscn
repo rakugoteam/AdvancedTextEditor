@@ -1,14 +1,14 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/ToolBar/MarkupSwitch.gd" type="Script" id=1]
+[ext_resource path="res://addons/advanced-text-editor/ToolBar/MarkupSwitch.gd" type="Script" id=1]
 [ext_resource path="res://addons/advanced-text/icons/ren16.png" type="Texture" id=2]
 [ext_resource path="res://addons/advanced-text/icons/md.svg" type="Texture" id=3]
 [ext_resource path="res://addons/advanced-text/icons/bbcode.svg" type="Texture" id=4]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/ToolBar/LabelContainer.tscn" type="PackedScene" id=5]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/Addons/AddonsContainer.tscn" type="PackedScene" id=6]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/Previews/PreviewOptions.tscn" type="PackedScene" id=7]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/Help/HelpContainer.tscn" type="PackedScene" id=8]
-[ext_resource path="res://addons/advanced-text/MarkupTextEditor/ModeSwitch/ModeSwitch.tscn" type="PackedScene" id=9]
+[ext_resource path="res://addons/advanced-text-editor/ToolBar/LabelContainer.tscn" type="PackedScene" id=5]
+[ext_resource path="res://addons/advanced-text-editor/Addons/AddonsContainer.tscn" type="PackedScene" id=6]
+[ext_resource path="res://addons/advanced-text-editor/Previews/PreviewOptions.tscn" type="PackedScene" id=7]
+[ext_resource path="res://addons/advanced-text-editor/Help/HelpContainer.tscn" type="PackedScene" id=8]
+[ext_resource path="res://addons/advanced-text-editor/ModeSwitch/ModeSwitch.tscn" type="PackedScene" id=9]
 
 [node name="ToolBar" type="Control"]
 anchor_right = 1.0

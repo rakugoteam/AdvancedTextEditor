@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CodeEdit.svg-fd021b790a715be4233dc34017c567bd.stex"
+path="res://.import/CodeEdit.svg-23b063e8b789b691c92611108d5b41c7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/advanced-text/icons/CodeEdit.svg"
-dest_files=[ "res://.import/CodeEdit.svg-fd021b790a715be4233dc34017c567bd.stex" ]
+source_file="res://addons/advanced-text-editor/icons/CodeEdit.svg"
+dest_files=[ "res://.import/CodeEdit.svg-23b063e8b789b691c92611108d5b41c7.stex" ]
 
 [params]
 
